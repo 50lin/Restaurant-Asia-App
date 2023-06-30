@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#menu-platillos {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#menu-platillos article {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.img-cards {
+    width: 90%;
+}
+
+#menu-platillos article img {
+    width: 100%;
+}
+
+#menu-platillos article button{
+    width: 100px;
+    height: 25px;
+    margin: 2px; 
+}
