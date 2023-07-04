@@ -11,8 +11,8 @@ export async function obtenerDatosBreakfast() {
         alert(error)
     }
 }
-
-
+ 
+//
 export async function obtenerDatosLunch() {
     const respuesta = await fetch("https://api.edamam.com/api/recipes/v2?type=public&app_id=96cb0228&app_key=d201e1a9a3dfd5be66e0a4e8ceafe01c&cuisineType=Asian&mealType=Dinner")
     const datosAsianLunch = await respuesta.json()
@@ -36,5 +36,5 @@ export async function obtenerDatosSnack() {
     return datosAsianSnack
 }
 
-
+//
 
